@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <meta name="description" content="보라를 좋아하는 모든 이들을 위한 보라색인 모든 것을 담은 웹사이트">
+
+        <title>what's in my purple?</title>
+        <script type="text/javascript" defer src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+        <!-- main logo -->
+        <div style="text-align:center;"><a href="mainpage.html"><img src="mainlogocrop.gif" alt="mainlogo" width="65%" ></a></div>
+    </header>
+    <!-- menu -->
+    <nav>
+        <div id="menu">
+            <ul class="menu">
+                <li><a href="closet.html" >c l o s e t</a></li>
+                <li><a href="acc.html" >a c c</a></li>
+                <li><a href="object.html" >o b j e c t</a></li>
+                <li><a href="place.html" >p l a c e</a></li>
+                <li style="background-color: #f0f0f0;"><a href="mainpage.html" >m a i n</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <section>
+            <!-- data box -->
+            <div class="maindesc">
+              <table>
+                <tr>
+                  <td style="width:300px;"><img src="leftbox.png" width="70px"></td>
+                  <td style="width:700px;"><p style="text-align: center;">보라색을 좋아하는 모든 사람을 위해<br>
+                    보라색 오브젝트나 플레이스를 소개하는 웹페이지 입니다.<br>
+                    보라색을 좋아하는 사람들이 위시리스트를 공유할 수 있도록<br>
+                    이 웹페이지를 제작했습니다. </p></td>
+                    <td style="width:300px;"><img src="rightbox.png" width="70px"></td>
+                <tr>
+              </table>
+            </div>
+
+            <!-- icons -->
+            <div id="icons">
+            <table>
+                <tr>
+                  <td style="width:220px;"><a href="closet.html"><img src="closet.png" onmouseover="this.src='closet_on.png';" onmouseout="this.src='closet.png';" width="150px" id="icon"></a></td>
+                  <td style="width:220px;"><a href="acc.html"><img src="accessary.png" onmouseover="this.src='accessary_on.png';" onmouseout="this.src='accessary.png';" width="150px" id="icon"></a></td>
+                  <td style="width:220px;"><a href="object.html"><img src="object.png" onmouseover="this.src='object_on.png';" onmouseout="this.src='object.png';" width="150px" id="icon"></a></td>
+                  <td style="width:220px;"><a href="place.html"><img src="place.png" onmouseover="this.src='place_on.png';" onmouseout="this.src='place.png';" width="150px" id="icon"></a></td>
+                <tr>
+            </table>
+          </div>
+
+            <!-- form write -->
+            <div>
+              <h1 style="display:inline-block;">i wanna know your purple</h1>
+              <div style="display:inline-block;"><input type="button" value="show!"id="myButton" onclick="toggleForm()"/></div>
+            </div>
+            <div id="form" style="display:none;">
+              <p>show your purple </p><br>
+              <form>
+                무슨 종류인가요? <select name="icons">
+                  <option value="1">c l o s e t</option>
+                  <option value="2">a c c</option>
+                  <option value="3">o b j e c t</option>
+                  <option value="4">p l a c e</option>
+                  </select> <br> <br>
+                <label>대표 이미지가 있나요? <span id="span"> u p l o a d </span><input type="file" class="putimg"></label> <br><br>
+                <label>정보 페이지 링크를 알려주세요! <input type="url" class="input" placeholder="ex: www.whatsinyourpurple.com" size="30"></label><br><br>
+                <label>코멘트나 개발자에게 할말을 자유롭게 해주세요! <input type="textarea" class="input" placeholder="ex: 흰색 패딩과 매치 시 귀여워요!" size="30"></label>
+                <input type="submit" value="제출" class="btn" onclick="alertA()"><input type="button" value="닫기" class="btn" onclick="closeBtn()">
+              </form>
+            </div>
+        </section>
+    </body>
+
+    <!-- web's footer -->
+    <footer>
+        Copyright 2022 <a href="https://www.instagram.com/astronaunt.ozoo/">@astrounaunt.ozoo</a> All rights reserved.<br>
+    </footer>
+</html>
