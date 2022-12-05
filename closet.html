@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <meta name="description" content="보라를 좋아하는 모든 이들을 위한 보라색인 모든 것을 담은 웹사이트">
+
+        <title>what's in my purple?</title>
+        <script type="text/javascript" defer src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+        <!-- main logo -->
+        <div style="text-align:center;"><a href="mainpage.html"><img src="mainlogocrop.gif" alt="mainlogo" width="65%" ></a></div>
+    </header>
+    <!-- menu -->
+    <nav>
+        <div id="menu">
+            <ul class="menu">
+                <li style="background-color: #f0f0f0;"><a href="closet.html" >c l o s e t</a></li>
+                <li><a href="acc.html" >a c c</a></li>
+                <li><a href="object.html" >o b j e c t</a></li>
+                <li><a href="place.html" >p l a c e</a></li>
+                <li><a href="mainpage.html" >m a i n</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <section>
+        <!-- icons -->
+        <div>
+            <table id="itemtable">
+                <tr>
+                  <td id="itembox" class="item1"><img src="핑퐁 꽈배기 니트.jpg" ></td>
+                  <td id="itembox" class="item2"><img src="https://image.msscdn.net/images/prd_img/20220830/2755001/detail_2755001_1_500.jpg?t=20220906191445" ></td>
+                  <td id="itembox" class="item3"><img src="https://ae01.alicdn.com/kf/S7ebfc4504ba44275a22b701a58d4eaa0K/-.jpg_Q90.jpg_.webp" ></td>
+                <tr>
+                <tr>
+                    <td id="itemdes" class="item1">핑퐁 꽈배기 니트</td>
+                    <td id="itemdes" class="item2">더센토르 후드티</td>
+                    <td id="itemdes" class="item3">쿠로미 잠옷</td>
+                <tr>
+            </table>
+
+            <table id="itemtable">
+                <tr>
+                  <td id="itembox" class="item4"><img src="https://shopping-phinf.pstatic.net/main_3092340/30923401009.1.20221005105139.jpg?type=f640" ></td>
+                  <td id="itembox" class="item5"><img src="https://ae01.alicdn.com/kf/Sde2ba694cb7f44e6a61da084b2ccec81d/Y2k-sundresses.jpg_Q90.jpg_.webp" ></td>
+                  <td id="itembox"class="item6"><img src="https://ae01.alicdn.com/kf/S1d489684cdb246b68a62e8c8aaef6e7bh/2022.jpg_Q90.jpg_.webp" ></td>
+                <tr>
+                <tr>
+                    <td id="itemdes" class="item4">제너럴아이디어 니트</td>
+                    <td id="itemdes"class="item5">Y2K 원피스</td>
+                    <td id="itemdes"class="item6">빈티지 여름 원피스</td>
+                <tr>
+            </table>
+
+            <table id="itemtable">
+                <tr>
+                  <td id="itembox" class="item7"><img src="https://image.msscdn.net/images/prd_img/20221024/2885384/detail_2885384_3_500.jpg?t=20221024093421" ></td>
+                  <td id="itembox" class="item8"><img src="https://d20s70j9gw443i.cloudfront.net/t_GOODS_INFORMATION/https://imgb.a-bly.com/data/editor/20210929_1632855172214447l.JPG" ></td>
+                <tr>
+                <tr>
+                    <td id="itemdes" class="item7">엄브로 숏패딩</td>
+                    <td id="itemdes" class="item8">알파카 니트</td>
+                <tr>
+            </table>
+        </div>
+
+        </section>
+
+        <!--modal section-->
+        <div class="modal" id="m1">
+            <div class="modal__content">
+                <h2>핑퐁 꽈배기 니트</h2>
+                <p style="font-size: 15px">크롭 기장의 귀여운 니트예요...!ㅎㅎ</p>
+                <p><b>가격</b>  17,800won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://a-bly.com/app/goods/3186033')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m2">
+            <div class="modal__content">
+                <h2>더센토르 후드티</h2>
+                <p style="font-size: 15px">오버핏 쨍한 보라의 후드티 :D</p>
+                <p><b>가격</b>  17,800won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://www.musinsa.com/app/goods/2755001')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m3">
+            <div class="modal__content">
+                <h2>쿠로미 잠옷</h2>
+                <p style="font-size: 15px">보들보들 연보라색 쿠로미 수면잠옷 ♥</p>
+                <p><b>가격</b>  50,600won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://ko.aliexpress.com/item/1005004710783218.html?spm=a2g0o.productlist.0.0.1aa52ef12baVaw&algo_pvid=d179ec5a-a3d2-439b-a257-de265c5a83e2&algo_exp_id=d179ec5a-a3d2-439b-a257-de265c5a83e2-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000030190273481%22%7D&pdp_npi=2%40dis%21KRW%2150613.0%2134919.0%21%21%21%21%21%40210318cb16702249333126929e95c5%2112000030190273481%21sea&curPageLogUid=8r65x0Bgf9d6')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m4">
+            <div class="modal__content">
+                <h2>제너럴아이디어 니트</h2>
+                <p style="font-size: 15px">배색 자수가 너무 예쁜 오버핏 니트!</p>
+                <p><b>가격</b>  34,000won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://generalidea.co.kr/product/detail.html?product_no=1989&cate_no=205&display_group=1&cafe_mkt=naver_ks&mkt_in=Y&ghost_mall_id=naver&ref=naver_open&NaPm=ct%3Dlal1uvco%7Cci%3Df1d86dc3e1bed38b4c11b7cd0da2dbedcf257352%7Ctr%3Dslct%7Csn%3D1091724%7Chk%3Db6052622759a856515a01aa08289328c0c39dbd4')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m5">
+            <div class="modal__content">
+                <h2>Y2K 원피스</h2>
+                <p style="font-size: 15px">하이틴 감성의 체크무늬 키치 원피스예요!!</p>
+                <p><b>가격</b>  10,938won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://ko.aliexpress.com/item/1005003829434000.html?spm=a2g0o.productlist.main.65.274032b7UzNyLW&algo_pvid=45441883-352d-4013-8b54-a49efd6a9cb4&algo_exp_id=45441883-352d-4013-8b54-a49efd6a9cb4-32&pdp_ext_f=%7B%22sku_id%22%3A%2212000027291590759%22%7D&pdp_npi=2%40dis%21KRW%2111297.0%215642.0%21%21%215504.0%21%21%40211be10916686882426513049d0779%2112000027291590759%21sea&curPageLogUid=itdgwGjdJYJv')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m6">
+            <div class="modal__content">
+                <h2>빈티지 여름 원피스</h2>
+                <p style="font-size: 15px">하늘하늘한 느낌의 청순 원피스!</p>
+                <p><b>가격</b>  18,385won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://ko.aliexpress.com/item/1005004552177059.html?spm=a2g0o.productlist.main.103.274032b7UzNyLW&algo_pvid=8abf8668-ef59-4b5c-bff4-0cd5d6e7cc24&algo_exp_id=8abf8668-ef59-4b5c-bff4-0cd5d6e7cc24-51&pdp_ext_f=%7B%22sku_id%22%3A%2212000029581745722%22%7D&pdp_npi=2%40dis%21KRW%2118989.0%2117090.0%21%21%21%21%21%402102186a16686883315644975d0735%2112000029581745722%21sea&curPageLogUid=uLRjOgp8kJCh')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m7">
+            <div class="modal__content">
+                <h2>엄브로 숏패딩</h2>
+                <p style="font-size: 15px">구스다운 따뜻한 숏패딩이에요 ♥</p>
+                <p><b>가격</b>  300,000won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://www.musinsa.com/app/goods/2885384')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+
+        <div class="modal" id="m8">
+            <div class="modal__content">
+                <h2>알파카 니트</h2>
+                <p style="font-size: 15px">포근따순 일파카 겨울보라 니트 !>_O!</p>
+                <p><b>가격</b>  19,800won</p>
+                <p><b>구매 사이트 바로가기</b><input type="button" value="go!" class="modalgo" float="left" onclick="window.open('https://a-bly.com/app/goods/3031953')"></p>
+                <button id="modalbtn" class="love">Love it!</button>
+                <button id="modalbtn" class="close">out bag</button>
+            </div>
+        </div>
+    </body>
+
+    <!-- web's footer -->
+    <footer>
+        Copyright 2022 <a href="https://www.instagram.com/astronaunt.ozoo/">@astrounaunt.ozoo</a> All rights reserved.<br>
+    </footer>
+</html>
